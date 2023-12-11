@@ -1,0 +1,28 @@
+body {
+  -webkit-animation: body 2s linear infinite alternate both;
+  animation: body 2s linear infinite alternate both;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@-webkit-keyframes body {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes body {
+  0% {
+    background: #030303;
+  }
+  100% {
+    background: red;
+  }
+}
+img {
+  border-radius: 50%;
+}
